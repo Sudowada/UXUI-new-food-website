@@ -1,0 +1,143 @@
+/* Navigation styles */
+.nav{
+    background-color: black;
+    display:flex;
+    padding:20px;
+    justify-content: center;
+
+
+}
+/* Styling links*/
+a:hover {
+    background-color: rgb(178, 233, 235);
+    color: black;
+    border-radius: 4px;
+  }
+/* Text styles*/
+.text{
+    background:rgb(26, 26, 26,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Styling P element*/
+.text p{
+    color: rgb(185, 185, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Column styles */
+.column{
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+/*making different boxes for each type of meal*/
+.meal1, .meal2, .meal3{
+
+    height: 100%;
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.meal1{
+    background-image: url("../images/steak.png");
+    margin-top: 20px;
+}
+.meal2{
+    background-image: url("../images/soup.png");
+    margin-top: 20px;
+}
+.meal3{
+    background-image: url("../images/cheesecake.png");
+    margin-top: 20px;
+}
+/* Style for each one, left, right, and center*/
+.left, .center, .right{
+    height: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.left, .right{
+    width: 25%;
+}
+.center{
+    width: 50%;
+}
+.center a{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Footer Styles */
+.footer{
+    height: 80px;
+    justify-content: center;
+    background-color: rgb(127, 131, 134);
+    display: flex;
+}
+
+.tw, .fb, .ig{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+}
+.tw{
+    color: rgb(129, 220, 222);
+   
+}
+.fb{
+    color: blue;
+  
+}
+.ig{
+    color: pink;
+   
+}
+/*logo style and pulling it in*/
+.logo{
+    background-image:url("../images/jakes-logo.png");
+    height: 230px;
+    width: 100%;
+    
+    /*controlling background repeat so only shows logo once*/
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+/* Button Style*/
+button{
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+.left button{
+    background-color: rgb(37, 71, 84);
+}
+
+.right button{
+    background-color: rgb(43, 80, 47);
+}
+/* Styling background */
+body{
+    background-color: black;
+}
